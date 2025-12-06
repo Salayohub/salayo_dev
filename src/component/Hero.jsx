@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { FaFacebookF, FaXTwitter, FaInstagram, FaTiktok, FaLinkedinIn } from "react-icons/fa6";
 
+
 export default function HeroSection() {
   const words = ["Freelancer", "Developer"];
   const [index, setIndex] = useState(0);
@@ -31,68 +32,81 @@ export default function HeroSection() {
   }, [displayText, typing, index]);
 
   return (
-    <section id="home" className="w-full h-[80vh] bg-gray-200 flex flex-col md:flex-row p-5 md:p-10">
-      {/* SOCIAL ICONS */}
-      <div className="w-full md:w-[5%] flex md:flex-col justify-center items-center gap-4 md:gap-6 mb-5 md:mb-0">
-        <div className="flex md:flex-col items-center gap-2">
-          <span className="text-sm tracking-widest rotate-0 md:-rotate-90 text-black">FOLLOW ME</span>
-          <div className="hidden md:block w-px h-20 bg-black"></div>
-        </div>
+    <section id="home" className="w-full h-[70vh] bg-gray-300 flex flex-col pb-15 md: pt-30 lg:pl-35 md:pl-30">
+     
 
-        <div className="flex md:flex-col gap-3">
-          {[FaFacebookF, FaXTwitter, FaInstagram, FaTiktok, FaLinkedinIn].map((Icon, i) => (
-            <a
-              key={i}
-              href="#"
-              className="p-2 rounded-full bg-blue-900 text-white hover:bg-blue-700 hover:text-blue-950 transition"
-            >
-              <Icon size={18} />
-            </a>
-          ))}
-        </div>
-      </div>
+
+
 
       {/* TEXT SECTION */}
-      <div className="w-full md:w-[45%] flex flex-col justify-center gap-4">
-        <h1 className="text-4xl font-bold text-black">Hello There!</h1>
+      
+      <div className="w-full  flex flex-col justify-center gap-4 pl-4">
+        
+        <h2 className="text-3xl md:text-4xl font-light font-poppins text-black">Hello There!</h2>
 
-        <h2 className="text-2xl font-semibold text-black">
+        <h1 className="text-4xl font-poppins font-semibold text-black lg:text-6xl">
           I am a <span className="text-blue-900 font-bold">{displayText}</span>
-        </h2>
+        </h1>
 
-        <p className="text-gray-400 text-lg">I make the complex simple.</p>
-
+        <h2 className="text-black text-4xl md:text-5xl font-poppins">I make the complex simple.</h2>
+         
         <a
           href="#contact"
-          className="w-fit px-5 py-2 bg-blue-900 text-white rounded-md hover:bg-blue-700 hover:text-blue-950 transition font-medium"
+          className="w-fit px-6 py-4 bg-blue-900 text-white rounded-md hover:bg-blue-700 hover:text-blue-950 transition font-medium"
         >
           Contact Me
         </a>
+         
 
-        <div className="flex flex-col gap-2 mt-4 text-gray-400">
-          <div className="flex items-center gap-2">
-            <span className="text-black font-semibold">Email:</span>
-            <span>salayohub@gmail.com</span>
+        
+        <div className="flex flex-col gap-2 mt-10">
+          <div className="flex gap-2">
+          <div className="flex flex-col border-r-2 w-1.5/10 px-5 py-3 items-start gap-2">
+            <span className="text-blue-900 font-semibold">Email:</span>
+            <span className="text-black font-light">salayohub@gmail.com</span>
           </div>
-          <div className="w-full h-px bg-black/20"></div>
 
-          <div className="flex items-center gap-2">
-            <span className="text-black font-semibold">Phone:</span>
-            <span>+234 814 795 1626</span>
+        
+
+          <div className="flex flex-col border-r-2 w-1.5/10  px-5 py-3 items-start gap-2">
+            <span className="text-blue-900 font-semibold">Phone:</span>
+            <span className="text-black font-light">08147951626</span>
           </div>
-          <div className="w-full h-px bg-black/20"></div>
+          
 
-          <div className="flex items-center gap-2">
-            <span className="text-black font-semibold">Location:</span>
-            <span>Lagos, Nigeria</span>
+          <div className="flex flex-col w-1.5/10  px-5 py-3 items-start gap-2">
+            <span className="text-blue-900 font-semibold">Location:</span>
+            <span className="text-black font-light">Lagos, Nigeria</span>
           </div>
-        </div>
-      </div>
+          </div>
 
-      {/* IMAGE SECTION */}
-      <div className="hidden md:flex w-[50%] justify-center items-center">
-        <div className="w-72 h-72 bg-blue-300 rounded-xl"></div>
-      </div>
+          {/* social icon */}
+          <div className=" md:hidden flex flex-col items-start mt-6">
+          <div className="flex items-center gap-2 ">
+                    <span className="text-12px tracking-widest  rotate-0 md:-rotate-270 text-black">FOLLOW ME</span>
+                    <div className="hidden md:block w-px mx-1 h-15 bg-black"></div>
+                  </div>
+          
+                  <div className="flex md:flex-col gap-3">
+                    {[FaFacebookF, FaXTwitter, FaInstagram, FaTiktok, FaLinkedinIn].map((Icon, i) => (
+                      <a
+                        key={i}
+                        href="#"
+                        className="p-2 rounded-full bg-blue-900 text-white hover:bg-blue-700 hover:text-blue-950 transition"
+                      >
+                        <Icon size={18} />
+                      </a>
+                    ))}
+                    </div>
+                  </div>
+          <div>
+
+          </div>
+          </div>
+
+
+          </div>
+    
     </section>
   );
 }
