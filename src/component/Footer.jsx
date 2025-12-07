@@ -5,7 +5,7 @@ const siteMeta = {
 
 export default function Footer() {
   return (
-    <footer className="py-8 border-t bg-gray-900">
+    <footer className="py-8 border-t bg-gray-900 md:px-10">
       <section className="flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-sm text-slate-300">© {new Date().getFullYear()} {siteMeta.name}. All rights reserved.</div>
         <div className="flex items-center  text-slate-300 gap-4 text-sm">

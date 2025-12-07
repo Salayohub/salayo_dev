@@ -32,7 +32,8 @@ export default function HeroSection() {
   }, [displayText, typing, index]);
 
   return (
-    <section id="home" className="w-full h-[70vh] bg-gray-300 flex flex-col pb-15 md: pt-30 lg:pl-35 md:pl-30">
+    <section id="home" className="w-full h-screen] bg-gray-300 bg-cover bg-center flex flex-col pb-15 md: pt-30 lg:pl-35 md:pl-30"
+      style={{ backgroundImage: "url('/assets/herobg.png')" }}>
      
 
 
@@ -40,7 +41,7 @@ export default function HeroSection() {
 
       {/* TEXT SECTION */}
       
-      <div className="w-full  flex flex-col justify-center gap-4 pl-4">
+      <div className="w-full  flex flex-col pb-0 md:pb-0 justify-center gap-4 pl-4 lg:pt-25">
         
         <h2 className="text-3xl md:text-4xl font-light font-poppins text-black">Hello There!</h2>
 
