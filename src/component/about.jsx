@@ -15,11 +15,17 @@ export default function AboutSection() {
 
   
   return (
-    <section id="about" className="w-full bg-white flex flex-col md: p-6 lg:pt-35 pb-20 gap-10 lg:pl-35 pr-25  md:pl-30">
+    <section id="about" className="w-full bg-white flex flex-col md: p-6 lg:pt-35 pb-20 gap-4 lg:pl-35 md:pr-25  md:pl-30">
+       <h2 className="text-4xl pl- md:text-5xl md:pl-30 font-bold text-gray-900">
+            About Me
+          </h2>
+
+          <div className="w-20 h-1 bg-blue-900 mb-15 ml-10 lg:ml-35"></div>
+        
       {/* TOP ABOUT SECTION */}
       <div className="flex flex-col md:flex-row gap-10">
         {/* IMAGE */}
-        <div className="w-full md:w-[40%] h-auto md:h-auto bg-gray-300 rounded-xl overflow-hidden">
+        <div className="w-full md:w-[40%] h-auto md:h-auto  rounded-xl overflow-hidden">
           <img src="/assets/aboutpnd.png" alt="Profile" className="w-full h-130 object-cover" />
         </div>
 
@@ -49,7 +55,7 @@ export default function AboutSection() {
           </div>
 
           <a href="/cv.pdf" download className="mt-4 px-6 py-3 bg-blue-900 text-white rounded-md hover:bg-blue-700 hover:text-blue-950 transition w-fit">
-            Download CV
+            Download My CV
           </a>
         </div>
       </div>

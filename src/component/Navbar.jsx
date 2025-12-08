@@ -34,12 +34,12 @@ export default function Navbar() {
         {/* LOGO SECTION */}
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => handleScroll("home")}>
           <img 
-            src="/assets/logosp.png" 
+            src="/assets/logotp.png" 
             alt="logo" 
-            className="w-10 h-10 object-cover"
+            className="w-50 h-10 object-cover"
           />
           <h1 className="text-2xl font-bold text-blue-900 tracking-wide">
-            SALAYO
+            
           </h1>
         </div>
 

@@ -15,8 +15,13 @@ export default function MyResume() {
   return (
     <>
       {/* RESUME SECTION */}
-      <section id="resume" className="w-full py-16 bg-white">
-        <div className="w-full flex flex-col md:flex-row gap-10 mt-10 md:px-30 lg:px-35 px-10">
+      <section id="resume" className="w-full p-6 py-16 bg-white">
+        <h2 className="text-4xl md:text-5xl md:pl-30 font-bold text-gray-900 mb-4">
+            My Resume
+          </h2>
+
+          <div className="w-20 h-1 bg-blue-900  lg:ml-35"></div>
+        <div className="w-full flex flex-col md:flex-row gap-10 mt-10 md:px-30 lg:px-35">
           {/* EDUCATION */}
           <div className="w-full md:w-1/2">
             <h2 className="text-blue-900 text-2xl font-bold mb-5">Education</h2>
