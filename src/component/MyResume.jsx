@@ -16,31 +16,34 @@ export default function MyResume() {
     <>
       {/* RESUME SECTION */}
       <section id="resume" className="w-full p-6 py-16 bg-white">
-        <h2 className="text-4xl md:text-5xl md:pl-30 font-bold text-gray-900 mb-4">
+       
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             My Resume
           </h2>
+          <div className="w-20 h-1 bg-blue-900 mx-auto"></div>
+        </div>
 
-          <div className="w-20 h-1 bg-blue-900  lg:ml-35"></div>
         <div className="w-full flex flex-col md:flex-row gap-10 mt-10 md:px-30 lg:px-35">
           {/* EDUCATION */}
           <div className="w-full md:w-1/2">
             <h2 className="text-blue-900 text-2xl font-bold mb-5">Education</h2>
 
             <ResumeCard
-              title="B.Sc Computer Science"
-              subtitle="University of Lagos 2015 - 2019"
-              text="Lorem ipsum dolor sit amet."
+              title="H.N.D ELECTRICAL ENGINEERING"
+              subtitle="Naval Institute of Technology (NIT)2016 - 2019"
+              text="Focused on developing solid technical skills  and safety  compliance"
             />
 
             <ResumeCard
               title="Frontend Certification"
-              subtitle="Udemy / Coursera"
+              subtitle="ALX AFRICA"
               text="Completed advanced frontend development courses."
             />
 
             <ResumeCard
               title="Cloud Practitioner"
-              subtitle="AWS Training Program"
+              subtitle="AWS Training Program/ ALX AFRICA"
               text="Hands-on foundational cloud knowledge in AWS services."
             />
           </div>
@@ -51,7 +54,7 @@ export default function MyResume() {
 
             <ResumeCard
               title="Frontend Developer"
-              subtitle="Freelance 2020 - Present"
+              subtitle="Freelance 2024 - Present"
               text="Built responsive and scalable websites."
             />
 
@@ -62,8 +65,8 @@ export default function MyResume() {
             />
 
             <ResumeCard
-              title="AI Prompt Specialist"
-              subtitle="Private Clients"
+              title="Wordpress Developer"
+              subtitle="Freelance 2020 - Present"
               text="Created optimized AI prompts for automation and productivity."
             />
           </div>

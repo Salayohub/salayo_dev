@@ -32,8 +32,8 @@ export default function HeroSection() {
   }, [displayText, typing, index]);
 
   return (
-    <section id="home" className="w-full h-screen] bg-gray-300 bg-cover bg-center flex flex-col pb-15 md: pt-30 lg:pl-35 md:pl-30"
-      style={{ backgroundImage: "url('/assets/herobg.png')" }}>
+    <section id="home" className="w-full h-screen] bg-gray-300 bg-cover bg-center flex flex-col pb-15 md: pt-30 lg:pl-35 md:pl-20 bg-none lg:bg-[url('/assets/herobg.png')]"
+      >
      
 
 

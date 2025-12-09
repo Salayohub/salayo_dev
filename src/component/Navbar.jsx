@@ -29,10 +29,10 @@ export default function Navbar() {
 
   return (
     <nav className="bg-gray-200 shadow-md fixed top-0 left-0 w-full z-50">
-      <div className="container mx-auto flex justify-between items-center py-4 px-10">
+      <div className="container mx-auto flex justify-between items-center py-4 pr-10 ">
         
         {/* LOGO SECTION */}
-        <div className="flex items-center gap-2 cursor-pointer" onClick={() => handleScroll("home")}>
+        <div className="flex items-start gap-2 cursor-pointer" onClick={() => handleScroll("home")}>
           <img 
             src="/assets/logotp.png" 
             alt="logo" 

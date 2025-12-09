@@ -23,7 +23,7 @@ export default function ContactSection() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-16 px-4 sm:px-6 lg:px-8" style={{ fontFamily: 'Poppins, sans-serif' }}>
+    <section className="min-h-screen bg-gray-50 py-16 px-4 sm:px-6 lg:px-8 md:pl-20" style={{ fontFamily: 'Poppins, sans-serif' }}>
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16">
@@ -166,6 +166,6 @@ export default function ContactSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

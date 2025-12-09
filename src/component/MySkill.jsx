@@ -2,11 +2,11 @@ import React from "react";
 
 export default function MySkill() {
   const skillsColumn1 = [
-    { name: "WordPress", level: 90 },
-    { name: "HTML", level: 95 },
+    { name: "WordPress", level: 95 },
+    { name: "HTML", level: 97 },
     { name: "CSS", level: 90 },
-    { name: "JavaScript", level: 85 },
-    { name: "TypeScript", level: 80 },
+    { name: "JavaScript", level: 80 },
+    { name: "TypeScript", level: 85 },
   ];
 
   const skillsColumn2 = [
@@ -14,11 +14,11 @@ export default function MySkill() {
     { name: "Next JS", level: 82 },
     { name: "AI Prompt", level: 75 },
     { name: "Version Control (Git)", level: 85 },
-    { name: "Cloud Practitioner", level: 78 },
+    { name: "Cloud Practitioner", level: 75 },
   ];
 
   return (
-    <section id="skills" className="w-full py-16 bg-white">
+    <section id="skills" className="w-full py-16 bg-white md:pl-20">
       <div className="max-w-7xl mx-auto px-6 md:px-10 lg:px-20">
         <h2 className="text-blue-900 text-3xl md:text-4xl font-bold mb-12 text-center">
           My Skills

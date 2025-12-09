@@ -1,9 +1,9 @@
 import React from "react";
-import { FaLaptopCode, FaBullhorn, FaBrain } from "react-icons/fa";
+import { FaLaptopCode, FaWordpress, FaCloud , FaCheckCircle } from "react-icons/fa";
 
 export default function MyService() {
   return (
-    <section id="services" className="w-full py-16 bg-white">
+    <section id="services" className="w-full py-16 bg-white md:pl-20">
       {/* SECTION TITLE */}
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-blue-900 mb-10 text-center">
@@ -18,38 +18,83 @@ export default function MyService() {
   <div className="text-blue-900 text-5xl mb-4">
     <FaLaptopCode />
   </div>
-  <h3 className="text-xl font-semibold text-gray-800 mb-2">
-    Website Development & Design
-  </h3>
-  <p className="text-gray-600 text-sm leading-relaxed">
-    I design and develop responsive, SEO-optimized websites...
-  </p>
+  <h2 className="text-xl font-semibold text-gray-800 mb-2">
+    Frontend Web Development
+  </h2>
+  <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+ Modern, responsive websites built with React, Next.js, Tailwind CSS, and JavaScript
+  </li>
+  <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+ Conversion of UI/UX designs (Figma, Adobe XD) into high-quality frontend interfaces
+  </li>
+  <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+
+Single Page Applications (SPA) and dynamic user experiences
+  </li>
+  <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+Performance optimization and clean, scalable code
+  </li>
+  
 </div>
 
 {/* Service 2 */}
 <div className="p-6 border rounded-xl bg-white hover:shadow-[6px_6px_0px_0px_#1e3a8a] transition-all duration-300">
   <div className="text-blue-900 text-5xl mb-4">
-    <FaBullhorn />
+    <FaWordpress />
   </div>
   <h3 className="text-xl font-semibold text-gray-800 mb-2">
-    Digital Marketing & SEO Optimization
+    WordPress Website Development
   </h3>
-  <p className="text-gray-600 text-sm leading-relaxed">
-    I help brands grow online through strategic SEO...
-  </p>
+   <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+ 
+Custom WordPress websites tailored to business or personal needs
+  </li>
+   <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+Landing pages, blogs, eCommerce setups, and portfolio sites
+  </li>
+   <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+ Website optimization for speed, SEO, and mobile responsiveness
+  </li>
+   <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+ Website maintenance, updates, and troubleshooting
+  </li>
+   
 </div>
 
 {/* Service 3 */}
 <div className="p-6 border rounded-xl bg-white hover:shadow-[6px_6px_0px_0px_#1e3a8a] transition-all duration-300">
   <div className="text-blue-900 text-5xl mb-4">
-    <FaBrain />
+    <FaCloud  />
   </div>
   <h3 className="text-xl font-semibold text-gray-800 mb-2">
-    AI Automation & Prompt Engineering
+   Cloud Deployment & Hosting Solutions
   </h3>
-  <p className="text-gray-600 text-sm leading-relaxed">
-    I build smart AI workflows, create high-quality prompts...
-  </p>
+   <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+ Deployment of static and dynamic websites on AWS (EC2, S3, CloudFront, Amplify)
+  </li>
+    <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+Secure and scalable cloud architectures following AWS best practices
+  </li>
+    <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+ Domain management and DNS configuration (Route 53)
+  </li>
+   
+    <li className="flex items-start gap-2">
+<FaCheckCircle className="text-blue-900 mt-1" />
+ Website migration, hosting setup, and continuous deployment (CI/CD)
+  </li>
+  
 </div>
 
 
