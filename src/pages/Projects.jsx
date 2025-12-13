@@ -1,26 +1,25 @@
 import React from "react";
-import { projects } from "../data/projects";
+import { Link } from "react-router-dom";
 import ProjectCard from "../component/ProjectCard";
+import { projects } from "../data/projects";
 import BackButton from "../component/BackButton";
 
-export default function Projects() {
+export default function ProjectSection() {
   return (
-    <div className="py-16 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
+    <section id="projects" className="py-20 bg-gray-50">
+      <div className="max-w-6xl mx-auto px-4">
+<BackButton />
 
-        <BackButton />
+       <div className="max-w-6xl mx-auto px-4">
+        <h1 className="text-4xl font-bold text-gray-900 mb-8">All Projects</h1>
 
-        <h1 className="text-3xl font-bold text-blue-900 mb-10">
-          All Projects
-        </h1>
-
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
-
       </div>
-    </div>
+      </div>
+    </section>
   );
 }

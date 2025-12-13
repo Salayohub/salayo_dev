@@ -5,7 +5,7 @@ export default function AboutSection() {
   const fullText = `I am a passionate Frontend Developer with over 6 years of experience in wordpress developmentand also creating
   dynamic and responsive web applications.
   
-  Over the past year, I’ve worked consistently on more than 20 projects and capstone assignments, combining both Cloud Computing (AWS) and Frontend Development to design practical systems that perform efficiently in real-world environments.
+  Over the past year, I’ve worked consistently on projects, combining both Cloud Computing (AWS) and Frontend Development to design practical systems that perform efficiently in real-world environments.
 
 On the frontend, I specialize in HTML, CSS, JavaScript, React, Tailwind CSS, Next.js, TypeScript, GitHub, and Node.js, enabling me to develop modern, responsive, and user-centric web applications. Combining cloud knowledge with software development allows me to build solutions that are not only visually engaging but also optimized for reliability, performance, deployment, and real-world scalability.
 
@@ -35,14 +35,17 @@ Driven by continuous learning, I am committed to advancing my expertise in cloud
           <div className="w-20 h-1 bg-blue-900 mx-auto"></div>
         </div>
       {/* TOP ABOUT SECTION */}
-      <div className="flex flex-col md:flex-row gap-10">
+      <div className="flex flex-col md:flex-col w-full  lg:flex-row  gap-10">
         {/* IMAGE */}
-        <div className="w-full md:w-[40%] h-auto md:h-auto  rounded-xl overflow-hidden">
-          <img src="/assets/aboutpnd.png" alt="Profile" className="w-full h-130 object-cover" />
+        <div className="w-full md:w-full h-auto md:h-auto  rounded-xl overflow-hidden flex items-center justify-center">
+          <img src="/assets/aboutimg4.png" alt="Profile" className="rounded-full w-100 h-100 object-cover md:hidden" />
+<img src="/assets/aboutimg5.png" alt="Profile" className="hidden md:block md:rounded-t-full" />
+
+
         </div>
 
         {/* ABOUT TEXT */}
-        <div className="w-full md:w-[60%] flex flex-col gap-5">
+        <div className="w-full  flex flex-col gap-5">
           <h2 className="text-blue-900 text-3xl font-bold">Who Am I?</h2>
 
           <h3 className="text-black text-2xl font-semi-bold leading-snug">
@@ -68,7 +71,7 @@ Driven by continuous learning, I am committed to advancing my expertise in cloud
 
           <div className="flex flex-col gap-1 text-gray-400">
             <p className="text-black font-semibold">Name: <span className="text-gray-400">Abdulkareem Salahudeen Busayo</span></p>
-            <p className="text-black font-semibold">Email: <span className="text-gray-400">abdulkareem@example.com</span></p>
+            <p className="text-black font-semibold">Email: <span className="text-gray-400">salayo4real@gmail.com</span></p>
           </div>
 
           <a href="/cv.pdf" download className="mt-4 px-6 py-3 bg-blue-900 text-white rounded-md hover:bg-blue-700 hover:text-blue-950 transition w-fit">

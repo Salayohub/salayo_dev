@@ -15,7 +15,7 @@ export default function MyResume() {
   return (
     <>
       {/* RESUME SECTION */}
-      <section id="resume" className="w-full p-6 py-16 bg-white">
+      <section id="resume" className="w-full p-6 py-16 bg-blue-100">
        
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">

@@ -3,7 +3,7 @@ import { FaLaptopCode, FaWordpress, FaCloud , FaCheckCircle } from "react-icons/
 
 export default function MyService() {
   return (
-    <section id="services" className="w-full py-16 bg-white md:pl-20">
+    <section id="services" className="w-full py-16 bg-blue-100 md:pl-20">
       {/* SECTION TITLE */}
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-blue-900 mb-10 text-center">
@@ -47,7 +47,7 @@ Performance optimization and clean, scalable code
     <FaWordpress />
   </div>
   <h3 className="text-xl font-semibold text-gray-800 mb-2">
-    WordPress Website Development
+    WordPress Website Design & Development
   </h3>
    <li className="flex items-start gap-2">
 <FaCheckCircle className="text-blue-900 mt-1" />
@@ -102,7 +102,7 @@ Secure and scalable cloud architectures following AWS best practices
       </div>
 
       {/* EXPERIENCE STATS SECTION */}
-      <div className="w-full py-14 bg-gray-50 mt-14">
+      {/* <div className="w-full py-14 bg-gray-50 mt-14">
         <div className="max-w-5xl mx-auto px-6">
           <div className="bg-white p-10 rounded-2xl border 
             shadow-[8px_8px_0px_0px_#1e3a8a] text-center">
@@ -127,7 +127,7 @@ Secure and scalable cloud architectures following AWS best practices
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </section>
   );
