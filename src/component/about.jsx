@@ -5,7 +5,7 @@ export default function AboutSection() {
   const fullText = `I am a passionate Frontend Developer with over 6 years of experience in wordpress developmentand also creating
   dynamic and responsive web applications.
   
-  Over the past year, I’ve worked consistently on projects, combining both Cloud Computing (AWS) and Frontend Development to design practical systems that perform efficiently in real-world environments.
+  Over the past year, I’ve worked consistently on projects and capstone assignments, combining both Cloud Computing (AWS) and Frontend Development to design practical systems that perform efficiently in real-world environments.
 
 On the frontend, I specialize in HTML, CSS, JavaScript, React, Tailwind CSS, Next.js, TypeScript, GitHub, and Node.js, enabling me to develop modern, responsive, and user-centric web applications. Combining cloud knowledge with software development allows me to build solutions that are not only visually engaging but also optimized for reliability, performance, deployment, and real-world scalability.
 
