@@ -17,7 +17,7 @@ export default function SingleProject() {
   const nextProject = projects[currentIndex + 1] || null;
 
   return (
-    <div className="py-20 max-w-6xl mx-auto px-4">
+    <div className="py-20 max-w-6xl pl-20 mx-auto px-4 pl:20 md:pl">
       {/* JSON-LD SEO Schema */}
       <script type="application/ld+json">
         {JSON.stringify({

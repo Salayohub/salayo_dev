@@ -3,16 +3,19 @@ import { Link } from "react-router-dom";
 export const projects = [
   {
     id: "1",
-    title: "E-Commerce Website",
-    category: "Web Development",
+    title: "MIMISTORE",
+    category: "ECOMMERCE WEBSITE",
     description:
-      "A modern e-commerce store built with React and Tailwind, optimized for SEO and user experience.",
+      "MimiStore is a modern e-commerce web application focused on performance, scalability, and user experience. Built with React and Tailwind CSS, it delivers a clean, responsive interface optimized for SEO and accessibility. The store supports multiple product categories including electronics, phones, and accessories, with all major sections such as hero banners and promotional content dynamically rendered via APIs. Secure payments are handled through Stripe integration, following industry best practices for data handling, component reusability, and state management.",
     Technologies: ["React", "TailwindCSS", "Node.js", "Stripe API"],
     process: [
-      "Market research and competitor analysis",
-      "User-focused UI/UX design",
-      "API Integration and checkout logic",
-      "Mobile responsiveness & SEO optimization",
+       "Project planning and requirement analysis",
+  "UI/UX design with responsive layouts",
+  "Component-driven development using React",
+  "API integration for dynamic content rendering",
+  "Payment integration with Stripe API",
+  "Performance optimization and SEO best practices",
+  "Testing, refinement, and deployment"
     ],
     thumbnail: "/assets/mimistore1.png",
     images: [
@@ -26,12 +29,19 @@ export const projects = [
 
   {
     id: "2",
-    title: "E-commerce store Website",
+    title: "Britus Store",
     category: "wordpress Development",
     description:
-      "A sleek, modern e-commerce showcasing different products and featured different product categories.",
+      "Britus Store is a full-featured e-commerce platform built with WordPress and WooCommerce, designed for flexibility, scalability, and performance. The storefront is developed using Elementor to deliver a sleek, responsive UI with reusable design components. Product data, categories, and featured collections are dynamically managed through WooCommerce, enabling efficient inventory and content control. The project follows best practices in theme customization, plugin optimization, SEO configuration, and performance tuning to ensure fast load times, maintainability, and a seamless shopping experience across devices.",
+
     tools: ["wordpress", "elementor", "WooCommerce"],
-    process: ["wordpress installations", "woocommerce setup", "Accessibility"],
+    process: [
+       "Requirement analysis and store architecture planning",
+  "Theme customization and UI composition with Elementor",
+  "WooCommerce product and category configuration",
+  "Performance and SEO optimization",
+  "Cross-device testing and deployment"],
+
     thumbnail: "/assets/britusstore.png",
     images: ["/images/projects/portfolio-1.jpg"],
      Link: "https://mimistore-beige.vercel.app/",
@@ -40,15 +50,18 @@ export const projects = [
 
   {
     id: "3",
-    title: "listing Web Application",
-    category: "AI & Prompt Engineering",
+    title: "StayFinder Listing web App",
+    category: "frontend Development",
     description:
-      "A workflow automation using AI prompts to generate reports, summaries, and responses.",
-    tools: ["Python", "OpenAI API", "React"],
+      "StayFinder is a modern home listing web application built with Next.js, TypeScript, and Tailwind CSS, focusing on performance, scalability, and type safety. The platform leverages APIs for dynamic rendering of property listings, images, and metadata. It includes automated calculations for pricing, stay duration, and booking totals, ensuring accurate, real-time updates based on user input. The project follows best practices in component architecture, API routing, client–server separation, and responsive design to deliver a fast, intuitive browsing and booking experience.",
+    tools: ["Next.js", "TypeScript", "TailwindCSS,"],
     process: [
-      "Prompt engineering",
-      "API integration",
-      "Testing & automation tuning",
+      "Requirement analysis and feature planning",
+  "Application architecture with Next.js and TypeScript",
+  "API integration for dynamic property listings",
+  "Automated pricing and date-based calculations",
+  "Responsive UI development with Tailwind CSS",
+  "Testing, optimization, and deployment"
     ],
     thumbnail: "/assets/listingapp.png",
     images: ["/images/projects/ai-1.jpg", "/images/projects/ai-2.jpg"],
@@ -61,9 +74,14 @@ export const projects = [
     title: "Business Landing Page",
     category: "Marketing Website",
     description:
-      "High-converting landing page for a small business, optimized for leads.",
-    tools: ["Next.js", "TailwindCSS"],
-    process: ["SEO analysis", "Copywriting", "Responsive layout"],
+      "This movie recommendation web application features a high-converting, performance-focused landing page designed to drive user engagement and lead conversion. Built with React.js, JavaScript, and Tailwind CSS, the interface emphasizes clean component structure, responsive layouts, and fast rendering. The application showcases recommended movie content through structured UI sections, optimized call-to-action placement, and accessibility-friendly styling. Best practices in reusable component design, state handling, and frontend optimization are applied to ensure scalability, maintainability, and an intuitive user experience across all devices.",
+    tools: ["rect.j", "TailwindCSS , javascript"],
+    process: ["Project scope definition and landing page planning",
+  "UI layout and conversion-focused design",
+  "Component-based development with React",
+  "Responsive styling using Tailwind CSS",
+  "Performance optimization and accessibility checks",
+  "Testing and final deployment"],
     thumbnail: "/assets/movieapp.png",
     images: ["/images/projects/landing-1.jpg"],
      Link: "https://reels-naija-movie-database.vercel.app/",
@@ -72,15 +90,19 @@ export const projects = [
 
   {
     id: "5",
-    title: "Cloud Architecture Demo",
-    category: "Cloud & DevOps",
+    title: "Delegate.Ng",
+    category: "frontend Development",
     description:
-      "A cloud deployment environment showing CI/CD, scaling, and best practices.",
-    tools: ["AWS", "Docker", "CI/CD"],
+      "This business website was developed to help Nigerians and individuals in the diaspora remotely manage and take care of their products and assets back home. The platform focuses on clarity, trust, and accessibility, providing visitors with a structured overview of services, processes, and contact channels. Built with a modern frontend stack, the site emphasizes responsive design, performance optimization, and clear call-to-action flows. Best practices in layout structure, usability, and content organization were implemented to ensure a reliable and user-friendly experience across devices.",
+    tools: ["react.js", "javascript,", "tailwindCSSw"],
     process: [
-      "Architectural planning",
-      "AWS deployment",
-      "Load balancing setup",
+       "Business requirement analysis and service definition",
+  "Information architecture and UX planning",
+  "Responsive UI development",
+  "Content structuring and call-to-action optimization",
+  "Performance and accessibility optimization",
+  "Testing and deployment"
+
     ],
     thumbnail: "/assets/delegateng.png",
     images: ["/images/projects/cloud-1.jpg"],
