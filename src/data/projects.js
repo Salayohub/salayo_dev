@@ -109,4 +109,25 @@ export const projects = [
      Link: "https://tasktrust.vercel.app/",
     date: "2023",
   },
+
+ {
+  id: "6",
+  title: "Afri-Hope Foundation",
+  category: "NGO Website",
+  description:
+    "AfriHope is a modern, production-ready NGO website built to represent international development work across Africa. The project focuses on creating a trustworthy, emotionally engaging, and performance-optimized digital presence for a non-profit organization.The website showcases real impact through data-driven storytelling, success stories, and transparent reporting while guiding users toward meaningful actions such as donating, volunteering, and partnering. Built with Next.js, TypeScript, and Tailwind CSS, the project demonstrates strong frontend architecture, accessibility best practices, and optimization for regions with slower internet connections.Special emphasis was placed on scalability, performance, and user trust, making the platform suitable for real-world NGO deployment. AfriHope reflects a balance between clean design, emotional storytelling, and conversion-focused user experience.",
+  tools: ["Next.js", "TypeScript", "Tailwind CSS", "React.js"],
+  process: [
+    "Planning & Research: Analyzed leading NGO websites, defined brand identity, mission, and target audience, and designed scalable project architecture.",
+    "UI/UX Design: Created a clear, engaging, and mobile-first interface with visual hierarchy and storytelling focus.",
+    "Component-Based Development: Built reusable UI components (Buttons, Cards, Forms) to ensure consistency across pages.",
+    "Responsive Styling: Implemented Tailwind CSS for adaptive layouts across devices.",
+    "SEO & Performance Optimization: Configured semantic HTML, metadata, static generation, and optimized images for fast load times.",
+    "Testing & Deployment: Cross-browser testing, accessibility checks, and production-ready deployment."
+  ],
+    thumbnail: "/assets/portfolio.png",
+    images: ["/images/projects/portfolio-1.jpg", "/images/projects/portfolio-2.jpg"],
+     Link: "https://your-portfolio-url.com",
+    date: "2026",
+  }
 ];
