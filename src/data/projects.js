@@ -125,9 +125,11 @@ export const projects = [
     "SEO & Performance Optimization: Configured semantic HTML, metadata, static generation, and optimized images for fast load times.",
     "Testing & Deployment: Cross-browser testing, accessibility checks, and production-ready deployment."
   ],
-    thumbnail: "/assets/portfolio.png",
-    images: ["/images/projects/portfolio-1.jpg", "/images/projects/portfolio-2.jpg"],
-     Link: "https://your-portfolio-url.com",
+    thumbnail: "/assets/ngoimg.png",
+    images: ["/assets/ngoimg.png", 
+      // "/images/projects/portfolio-2.jpg" 
+       ],
+     Link: "https://afrihope-foundation.vercel.app/",
     date: "2026",
   }
 ];
