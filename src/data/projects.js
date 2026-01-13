@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const projects = [
   {
     id: "1",
-    title: "MIMISTORE",
+    title: "Mimi Store",
     category: "ECOMMERCE WEBSITE",
     description:
       "MimiStore is a modern e-commerce web application focused on performance, scalability, and user experience. Built with React and Tailwind CSS, it delivers a clean, responsive interface optimized for SEO and accessibility. The store supports multiple product categories including electronics, phones, and accessories, with all major sections such as hero banners and promotional content dynamically rendered via APIs. Secure payments are handled through Stripe integration, following industry best practices for data handling, component reusability, and state management.",
@@ -44,7 +44,7 @@ export const projects = [
 
     thumbnail: "/assets/britusstore.png",
     images: ["/images/projects/portfolio-1.jpg"],
-     Link: "https://mimistore-beige.vercel.app/",
+    //  Link: "https://mimistore-beige.vercel.app/",
     date: "2024",
   },
 
@@ -71,7 +71,7 @@ export const projects = [
 
   {
     id: "4",
-    title: "MOVIE RECOMMENDATION WEBSITE",
+    title: "Movie Recommendation App",
     category: "MOVIE RECOMMENDATION WEBSITE",
     description:
       "This movie recommendation web application features a high-converting, performance-focused landing page designed to drive user engagement and lead conversion. Built with React.js, JavaScript, and Tailwind CSS, the interface emphasizes clean component structure, responsive layouts, and fast rendering. The application showcases recommended movie content through structured UI sections, optimized call-to-action placement, and accessibility-friendly styling. Best practices in reusable component design, state handling, and frontend optimization are applied to ensure scalability, maintainability, and an intuitive user experience across all devices.",
@@ -91,7 +91,7 @@ export const projects = [
   {
     id: "5",
     title: "Delegate.Ng",
-    category: "TASK ASSITANCE WEBSITE",
+    category: "TASK ASSISTANCE WEBSITE",
     description:
       "This business website was developed to help Nigerians and individuals in the diaspora remotely manage and take care of their products and assets back home. The platform focuses on clarity, trust, and accessibility, providing visitors with a structured overview of services, processes, and contact channels. Built with a modern frontend stack, the site emphasizes responsive design, performance optimization, and clear call-to-action flows. Best practices in layout structure, usability, and content organization were implemented to ensure a reliable and user-friendly experience across devices.",
     tools: ["react.js", "javascript,", "tailwindCSSw"],
@@ -113,7 +113,7 @@ export const projects = [
  {
   id: "6",
   title: "Afri-Hope Foundation",
-  category: "NGO Website",
+  category: "NGO WEBSITE",
   description:
     "AfriHope is a modern, production-ready NGO website built to represent international development work across Africa. The project focuses on creating a trustworthy, emotionally engaging, and performance-optimized digital presence for a non-profit organization.The website showcases real impact through data-driven storytelling, success stories, and transparent reporting while guiding users toward meaningful actions such as donating, volunteering, and partnering. Built with Next.js, TypeScript, and Tailwind CSS, the project demonstrates strong frontend architecture, accessibility best practices, and optimization for regions with slower internet connections.Special emphasis was placed on scalability, performance, and user trust, making the platform suitable for real-world NGO deployment. AfriHope reflects a balance between clean design, emotional storytelling, and conversion-focused user experience.",
   tools: ["Next.js", "TypeScript", "Tailwind CSS", "React.js"],
