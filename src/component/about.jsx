@@ -74,7 +74,10 @@ Driven by continuous learning, I am committed to advancing my expertise in cloud
             <p className="text-black font-semibold">Email: <span className="text-gray-400">salayo4real@gmail.com</span></p>
           </div>
 
-          <a href="/cv.pdf" download className="mt-4 px-6 py-3 bg-blue-900 text-white rounded-md hover:bg-blue-700 hover:text-blue-950 transition w-fit">
+          <a href="/assets/ABDULKAREEM_FrontEnd_CV.pdf" 
+          download target="_blank" 
+          rel="noopener noreferrer"
+         className="mt-4 px-6 py-3 bg-blue-900 text-white rounded-md hover:bg-blue-700 hover:text-blue-950 transition w-fit">
             Download My CV
           </a>
         </div>
