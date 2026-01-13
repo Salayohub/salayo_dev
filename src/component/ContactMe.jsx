@@ -383,7 +383,7 @@ export default function ContactSection() {
       {/* QR Code */}
       <div className="flex justify-center mb-6">
         <img
-          src="/assets/whatAPPQRcode.png"
+          src="/assets/QRcode.png"
           alt="WhatsApp QR Code"
           className="w-60 h-60 object-contain rounded-md"
         />
@@ -393,7 +393,7 @@ export default function ContactSection() {
       <div className=" flex gap-8 justify-center">
         {/* WhatsApp Link */}
         <Link
-          to="https://wa.me/qr/ZFVIUCXFS5V7D1"
+          to="https://wa.me/message/JJ6RH24WPFECM1"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-3 text-green-600 font-medium hover:underline"
